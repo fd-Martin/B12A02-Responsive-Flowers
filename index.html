@@ -6,15 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive-Flowers</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+    <!-- header start  -->
+    <header class="container mx-auto px-4 py-6 border ">
+        <nav class="flex justify-between items-center gap-10 mx-15 ">
+            <div class="w-[50%]">
+                <img class="w-[63px] h-[38px] md:w-[135px] md:h-[82px]" src="./assets/logo.png" alt="">
+            </div>
+            <div class="w-[50%]">
+                <ul class="flex font-base justify-end items-center gap-10">
+                    <li class="p-1 hidden md:block text-[#252432] font-bold"><a href="#">Home</a></li>
+                    <li class="p-1 hidden md:block text-[#8987A1]"><a href="#">Shop</a></li>
+                    <li class="p-1 hidden md:block text-[#8987A1]"><a href="#">About us</a></li>
+                    <li class="p-1 text-black font-normal"><a href="#"><i class="fa-solid fa-cart-shopping"></i> Cart
+                            ($56)</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
     <!-- footer start  -->
     <footer class="container mx-auto px-4 py-6 border-1">
         <div class="grid sm:grid-cols-1 md:grid-cols-3 mx-15 sm:gap-2 md:gap-10 ">
             <div class="footer-left">
-                <img src="./assets/logo.png" class="sm:[w-180px] [h-109px] md:w-[136px] md:h-[82px]" alt="">
-                <p class="w-[80%] sm:text-base md:text-[22px] text-black opacity-50 mt-4">Indulge your senses with the beauty and fragrance
+                <img src="./assets/logo.png" class="w-[180px] h-[100px] md:w-[136px] md:h-[82px]" alt="">
+                <p class="w-[80%] sm:text-base md:text-[22px] text-black opacity-50 mt-4">Indulge your senses with the
+                    beauty and fragrance
                     of our fresh flower shop.</p>
             </div>
             <div class="footer-middle text-base">
